@@ -1,6 +1,20 @@
 {
+<<<<<<< HEAD
   "outputDirectory": "dist/public",
+=======
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "dist/public" }
+    }
+  ],
+>>>>>>> a180d2fff4ff09bba9616406a54da7f919bc744b
   "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
   ]
 }
